@@ -4,8 +4,7 @@ html {
 }
 
 #main-window {
-    --font-size: 0.85em !important;
-    font-size: var(--font-size) !important;
+    --font-size: 0.85rem !important;
     --background: var(--lwt-accent-color);
     --foreground: var(--arrowpanel-color);
     --accent-primary: var(--lwt-toolbar-field-highlight);
@@ -33,7 +32,11 @@ html {
 }
 
 #urlbar-input-container {
-    font-size: calc(var(--font-size) * 1.15) !important;
+    font-size: calc(var(--font-size) * 1.05) !important;
+}
+
+#identity-icon-label {
+    font-size: calc(var(--font-size) * 0.98) !important;
 }
 
 #downloadsPanel, #widget-overflow, #appMenu-popup, #customizationui-widget-panel {
